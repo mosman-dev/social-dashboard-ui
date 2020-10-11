@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Social Dashboard</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body class="light-bg light-text-white">
+		<!-- Backdrop -->
+		<div class="backdrop light-top-bg"></div>
+
+		<!-- Main -->
+		<div class="main-container">
+			<!-- Title Bar -->
+			<div class="title-bar">
+				<div class="header">
+					<p>Social Media Dashboard</p>
+					<p class="light-text-blue">@xyzwizard</p>
+					<p class="light-text-blue">Total Followers: 32,004</p>
+				</div>
+
+				<div class="separator"></div>
+
+				<!-- Light/Dark Switch -->
+				<div class="switch-wrapper">
+					<p class="mode">Dark Mode</p>
+					<div class="dark-light-switch switch-bg light-toggle">
+						<div class="switch-circle"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Social Overview -->
+			<div class="social-overview-container">
+				<!-- Facebook -->
+				<div class="social-main-card light-card-bg fb">
+					<div class="icon-user-wrapper">
+						<img src="./imgs/icon-facebook.svg" alt="" />
+					</div>
+
+					<p class="social-main-number num">0</p>
+					<p class="social-main-number-desc light-text-blue light-text-blue">
+						Followers
+					</p>
+
+					<div class="social-delta up">
+						<img src="./imgs/icon-up.svg" alt="up-arrow" /> 12 Today
+					</div>
+				</div>
+
+				<!-- Twitter -->
+				<div class="social-main-card light-card-bg twitter">
+					<div class="icon-user-wrapper">
+						<img src="./imgs/icon-twitter.svg" alt="" />
+					</div>
+
+					<p class="social-main-number num">0</p>
+					<p class="social-main-number-desc light-text-blue">Followers</p>
+
+					<div class="social-delta up">
+						<img src="./imgs/icon-up.svg" alt="up-arrow" /> 99 Today
+					</div>
+				</div>
+
+				<!-- Instagram -->
+				<div class="social-main-card light-card-bg light-ig-bg ig">
+					<div class="icon-user-wrapper">
+						<img src="./imgs/icon-instagram.svg" alt="" />
+					</div>
+
+					<p class="social-main-number num-k">0k</p>
+					<p class="social-main-number-desc light-text-blue">Followers</p>
+
+					<div class="social-delta up">
+						<img src="./imgs/icon-up.svg" alt="up-arrow" /> 99 Today
+					</div>
+				</div>
+
+				<!-- YouTube -->
+				<div class="social-main-card light-card-bg youtube">
+					<div class="icon-user-wrapper">
+						<img src="./imgs/icon-youtube.svg" alt="" />
+					</div>
+
+					<p class="social-main-number num">0</p>
+					<p class="social-main-number-desc light-text-blue">Subscribers</p>
+
+					<div class="social-delta down">
+						<img src="./imgs/icon-down.svg" alt="down-arrow" /> 144 Today
+					</div>
+				</div>
+			</div>
+
+			<!-- Daily Stats -->
+			<div class="subheader">Overview - Today</div>
+			<div class="social-daily-stats-container">
+				<div class="row">
+					<div class="social-stat-card light-card-bg">
+						<div class="stat-card-row">
+							<div class="stat-card-text light-text-blue">Page Views</div>
+							<div class="stat-card-icon">
+								<img src="./imgs/icon-facebook.svg" alt="up-arrow" />
+							</div>
+						</div>
+
+						<div class="stat-card-row">
+							<div class="stat-card-num num">0</div>
+							<div class="stat-card-percentage up">
+								<img src="./imgs/icon-up.svg" alt="up-arrow" /> 3%
+							</div>
+						</div>
+					</div>
+
+					<div class="social-stat-card light-card-bg">
+						<div class="stat-card-row">
+							<div class="stat-card-text light-text-blue">Likes</div>
+							<div class="stat-card-icon">
+								<img src="./imgs/icon-facebook.svg" alt="up-arrow" />
+							</div>
+						</div>
+
+						<div class="stat-card-row">
+							<div class="stat-card-num num">0</div>
+							<div class="stat-card-percentage down">
+								<img src="./imgs/icon-down.svg" alt="down-arrow" /> 2%
+							</div>
+						</div>
+					</div>
+
+					<div class="social-stat-card light-card-bg">
+						<div class="stat-card-row">
+							<div class="stat-card-text light-text-blue">Likes</div>
+							<div class="stat-card-icon">
+								<img src="./imgs/icon-instagram.svg" alt="up-arrow" />
+							</div>
+						</div>
+
+						<div class="stat-card-row">
+							<div class="stat-card-num num">0</div>
+							<div class="stat-card-percentage up">
+								<img src="./imgs/icon-up.svg" alt="up-arrow" /> 257%
+							</div>
+						</div>
+					</div>
+
+					<div class="social-stat-card light-card-bg">
+						<div class="stat-card-row">
+							<div class="stat-card-text light-text-blue">Profile Views</div>
+							<div class="stat-card-icon">
+								<img src="./imgs/icon-instagram.svg" alt="up-arrow" />
+							</div>
+						</div>
+
+						<div class="stat-card-row">
+							<div class="stat-card-num num-k">0k</div>
+							<div class="stat-card-percentage up">
+								<img src="./imgs/icon-up.svg" alt="up-arrow" /> 1375%
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="social-stat-card light-card-bg">
+						<div class="stat-card-row">
+							<div class="stat-card-text light-text-blue">Retweets</div>
+							<div class="stat-card-icon">
+								<img src="./imgs/icon-twitter.svg" alt="up-arrow" />
+							</div>
+						</div>
+
+						<div class="stat-card-row">
+							<div class="stat-card-num num">0</div>
+							<div class="stat-card-percentage up">
+								<img src="./imgs/icon-up.svg" alt="up-arrow" /> 303%
+							</div>
+						</div>
+					</div>
+
+					<div class="social-stat-card light-card-bg">
+						<div class="stat-card-row">
+							<div class="stat-card-text light-text-blue">Likes</div>
+							<div class="stat-card-icon">
+								<img src="./imgs/icon-twitter.svg" alt="up-arrow" />
+							</div>
+						</div>
+
+						<div class="stat-card-row">
+							<div class="stat-card-num num">0</div>
+							<div class="stat-card-percentage up">
+								<img src="./imgs/icon-up.svg" alt="up-arrow" /> 553%
+							</div>
+						</div>
+					</div>
+
+					<div class="social-stat-card light-card-bg">
+						<div class="stat-card-row">
+							<div class="stat-card-text light-text-blue">Likes</div>
+							<div class="stat-card-icon">
+								<img src="./imgs/icon-instagram.svg" alt="up-arrow" />
+							</div>
+						</div>
+
+						<div class="stat-card-row">
+							<div class="stat-card-num num">0</div>
+							<div class="stat-card-percentage down">
+								<img src="./imgs/icon-down.svg" alt="down-arrow" /> 19%
+							</div>
+						</div>
+					</div>
+
+					<div class="social-stat-card light-card-bg">
+						<div class="stat-card-row">
+							<div class="stat-card-text light-text-blue">Total Views</div>
+							<div class="stat-card-icon">
+								<img src="./imgs/icon-instagram.svg" alt="up-arrow" />
+							</div>
+						</div>
+
+						<div class="stat-card-row">
+							<div class="stat-card-num num">0</div>
+							<div class="stat-card-percentage down">
+								<img src="./imgs/icon-down.svg" alt="down-arrow" /> 12%
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./main.js"></script>
+	</body>
+</html>
